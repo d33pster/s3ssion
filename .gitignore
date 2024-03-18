@@ -1,0 +1,4 @@
+dist/
+src/session.egg-info/
+tests/
+pyproject.toml
