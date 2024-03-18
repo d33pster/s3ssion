@@ -1,4 +1,4 @@
-# <p align='center'>session</p>
+# <p align='center'>s3ssion</p>
 <br>
 
 ![Static Badge](https://img.shields.io/badge/pypi-available-brightgreen?style=flat&logo=python&logoColor=red)
@@ -20,30 +20,30 @@ Session helps creating login sessions.
 ## Installation
 ```console
 ## run
-$ pip install session
+$ pip install s3ssion
 ```
 
 ## Usage
 
 ###### initialization
 ```console
->>> from session import session
->>> sess = session('password')
+>>> from s3ssion import s3ssion
+>>> sess = s3ssion('password')
 ```
 for help with session class initialization
 ```console
->>> from session import session
->>> help(session)
+>>> from s3ssion import s3ssion
+>>> help(s3ssion)
 ```
 
 ###### class functions
 ```console
->>> from session import session
+>>> from s3ssion import s3ssion
 
 # _login()_ function
->>> help(session._login_)
+>>> help(s3ssion._login_)
 
-Help on function _login_ in module src.session:
+Help on function _login_ in module src.s3ssion:
 
 _login_(self, username: str, password: str)
     login user
@@ -58,9 +58,9 @@ _login_(self, username: str, password: str)
 
 ```console
 # _register_() function
->>> help(session._register_)
+>>> help(s3ssion._register_)
 
-Help on function _register_ in module src.session:
+Help on function _register_ in module src.s3ssion:
 
 _register_(self, **kwargs)
     register function.
@@ -73,9 +73,9 @@ _register_(self, **kwargs)
 
 ```console
 # _logout_() function
->>> help(session._logout_)
+>>> help(s3ssion._logout_)
 
-Help on function _logout_ in module src.session:
+Help on function _logout_ in module src.s3ssion:
 
 _logout_(self)
     logout currently logged in user
@@ -86,9 +86,9 @@ _logout_(self)
 
 ```console
 # _change_password_() function
->>> help(session._change_password_)
+>>> help(s3ssion._change_password_)
 
-Help on function _change_password_ in module src.session:
+Help on function _change_password_ in module src.s3ssion:
 
 _change_password_(self, username: str, old_password: str, new_password: str)
     change user password.
@@ -104,9 +104,9 @@ _change_password_(self, username: str, old_password: str, new_password: str)
 
 ```console
 # _login_who_() function
->>> help(session._login_who_)
+>>> help(s3ssion._login_who_)
 
-Help on function _login_who_ in module src.session:
+Help on function _login_who_ in module src.s3ssion:
 
 _login_who_(self)
     returns currently logged in user
@@ -117,9 +117,9 @@ _login_who_(self)
 
 ```console
 # _login_status_() function
->>> help(session._login_function_)
+>>> help(s3ssion._login_function_)
 
-Help on function _login_status_ in module src.session:
+Help on function _login_status_ in module src.s3ssion:
 
 _login_status_(self)
     get login status
@@ -130,9 +130,9 @@ _login_status_(self)
 
 ```console
 # _user_count_() function
->>> help(session._user_count_)
+>>> help(s3ssion._user_count_)
 
-Help on function _user_count_ in module src.session:
+Help on function _user_count_ in module src.s3ssion:
 
 _user_count_(self)
     get registered user count
@@ -143,9 +143,9 @@ _user_count_(self)
 
 ```console
 # _force_login_() function
->>> help(session._force_login_)
+>>> help(s3ssion._force_login_)
 
-Help on function _force_login_ in module src.session:
+Help on function _force_login_ in module src.s3ssion:
 
 _force_login_(self, username: str)
     forcefully login an user.
