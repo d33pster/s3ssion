@@ -1,6 +1,5 @@
 # <p align='center'>s3ssion</p>
 <br>
-v1.0.1
 
 ![Static Badge](https://img.shields.io/badge/pypi-available-brightgreen?style=flat&logo=python&logoColor=red)
 ![Static Badge](https://img.shields.io/badge/Linux-supported-blue?style=flat&logo=Linux&logoColor=red)
@@ -8,6 +7,7 @@ v1.0.1
 ![Static Badge](https://img.shields.io/badge/MacOS-supported-blue?style=flat&logo=Macintosh&logoColor=red)
 ![Static Badge](https://img.shields.io/badge/python-only-green?style=flat&logo=python&logoColor=red)
 <br><br><br>
+v1.0.2
 
 <p align='center'>
     <a href='#Installation'>Installation</a>
