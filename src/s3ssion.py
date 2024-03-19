@@ -48,7 +48,7 @@ class s3ssion:
             return f'{self._sessionuser} is currently logged in'
         else:
             for entry in self._userdata:
-                if entry['name'] == username:
+                if entry['username'] == username:
                     if self._fernet.decrypt(entry['password'].encode('ascii')) == password.encode('ascii'):
                         self._islogin = True
                         self._sessionuser = username
