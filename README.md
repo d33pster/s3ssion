@@ -1,5 +1,6 @@
 # <p align='center'>s3ssion</p>
 <br>
+v1.0.1
 
 ![Static Badge](https://img.shields.io/badge/pypi-available-brightgreen?style=flat&logo=python&logoColor=red)
 ![Static Badge](https://img.shields.io/badge/Linux-supported-blue?style=flat&logo=Linux&logoColor=red)
