@@ -1,4 +1,4 @@
-dist/
+dist*/
 src/s3ssion.egg-info/
 tests/
 pyproject.toml
