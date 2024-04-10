@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "s3ssion"
+version = "1.0.2"
+description = "Login Session Manager"
+requires-python = ">=3.9"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { file = "LICENSE" }
+authors = [{name = "Soumyo Deep Gupta", email = "deep.main.ac@gmail.com"}]
+maintainers = [{name = "Soumyo Deep Gupta", email = "deep.main.ac@gmail.com"}]
+keywords = ['d33pster', 'login', 'session', 'session-manager', 'login-manager', 'login-screen']
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'cryptography'
+]
+
+
+[project.urls]
+Homepage = "https://github.com/d33pster/s3ssion"
+Issues = "https://github.com/d33pster/s3ssion/issues"
