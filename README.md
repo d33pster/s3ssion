@@ -1,13 +1,8 @@
 # <p align='center'>s3ssion</p>
-<br>
 
-![Static Badge](https://img.shields.io/badge/pypi-available-brightgreen?style=flat&logo=python&logoColor=red)
-![Static Badge](https://img.shields.io/badge/Linux-supported-blue?style=flat&logo=Linux&logoColor=red)
-![Static Badge](https://img.shields.io/badge/Windows-supported-blue?style=flat&logo=Windows&logoColor=red)
-![Static Badge](https://img.shields.io/badge/MacOS-supported-blue?style=flat&logo=Macintosh&logoColor=red)
-![Static Badge](https://img.shields.io/badge/python-only-green?style=flat&logo=python&logoColor=red)
-<br><br><br>
-v1.0.2
+[![codecov](https://codecov.io/gh/d33pster/s3ssion/graph/badge.svg?token=R08LSVN441)](https://codecov.io/gh/d33pster/s3ssion)
+[![Build status](https://ci.appveyor.com/api/projects/status/c3lp95w65r360b1l?svg=true)](https://ci.appveyor.com/project/d33pster/s3ssion)
+
 
 <p align='center'>
     <a href='#Installation'>Installation</a>
